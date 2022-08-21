@@ -28,8 +28,10 @@ const Home= () => {
         <div className="w-60">
           <Image src={Logo} alt="logo" />
         </div>
-            <p className="-mt-10 mb-10 font-xs italic">Vous avez déjà un compte ? <a className='navBtn font-semibold' href="./auth/login" >Connectez-vous</a></p>
-            <p className="-mt-10 mb-10 font-xs italic">Vous n'avez pas de compte ? <a className='navBtn font-semibold' href="./auth/signUp" >Inscrivez-vous</a></p>
+            <p className="-mt-10 mb-10 font-xs italic">Vous avez déjà un compte ? 
+            <a className='navBtn font-semibold' href="./auth/login" >Connectez-vous</a></p>
+            <p className="-mt-10 mb-10 font-xs italic">Vous n'avez pas de compte ? 
+            <a className='navBtn font-semibold' href="./auth/signUp" >Inscrivez-vous</a></p>
           </div>
       )};
     </div>
